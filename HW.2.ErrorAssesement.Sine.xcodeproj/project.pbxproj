@@ -70,9 +70,9 @@
 		43A4D7E025CDBA7500A3E185 /* HW_2_ErrorAssesementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_2_ErrorAssesementApp.swift; sourceTree = "<group>"; };
 		43A4D7E125CDBA7500A3E185 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43A4D7E225CDBA7600A3E185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43A4D7E725CDBA7600A3E185 /* HW.2.ErrorAssesement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW.2.ErrorAssesement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A4D7E725CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW.2.ErrorAssesement.Sine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A4D7EA25CDBA7600A3E185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43A4D7EF25CDBA7600A3E185 /* HW.2.ErrorAssesement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW.2.ErrorAssesement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A4D7EF25CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW.2.ErrorAssesement.Sine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A4D7F125CDBA7600A3E185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A4D7F225CDBA7600A3E185 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		43A4D7F725CDBA7600A3E185 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,8 +159,8 @@
 		43A4D7E825CDBA7600A3E185 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43A4D7E725CDBA7600A3E185 /* HW.2.ErrorAssesement.app */,
-				43A4D7EF25CDBA7600A3E185 /* HW.2.ErrorAssesement.app */,
+				43A4D7E725CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine.app */,
+				43A4D7EF25CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine.app */,
 				43A4D7F725CDBA7600A3E185 /* Tests iOS.xctest */,
 				43A4D80225CDBA7600A3E185 /* Tests macOS.xctest */,
 			);
@@ -212,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43A4D7E625CDBA7600A3E185 /* HW.2.ErrorAssesement (iOS) */ = {
+		43A4D7E625CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43A4D81125CDBA7600A3E185 /* Build configuration list for PBXNativeTarget "HW.2.ErrorAssesement (iOS)" */;
+			buildConfigurationList = 43A4D81125CDBA7600A3E185 /* Build configuration list for PBXNativeTarget "HW.2.ErrorAssesement.Sine (iOS)" */;
 			buildPhases = (
 				43A4D7E325CDBA7600A3E185 /* Sources */,
 				43A4D7E425CDBA7600A3E185 /* Frameworks */,
@@ -224,17 +224,17 @@
 			);
 			dependencies = (
 			);
-			name = "HW.2.ErrorAssesement (iOS)";
+			name = "HW.2.ErrorAssesement.Sine (iOS)";
 			packageProductDependencies = (
 				43A4D87325CDBD8300A3E185 /* CorePlot */,
 			);
 			productName = "HW.2.ErrorAssesement (iOS)";
-			productReference = 43A4D7E725CDBA7600A3E185 /* HW.2.ErrorAssesement.app */;
+			productReference = 43A4D7E725CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine.app */;
 			productType = "com.apple.product-type.application";
 		};
-		43A4D7EE25CDBA7600A3E185 /* HW.2.ErrorAssesement (macOS) */ = {
+		43A4D7EE25CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43A4D81425CDBA7600A3E185 /* Build configuration list for PBXNativeTarget "HW.2.ErrorAssesement (macOS)" */;
+			buildConfigurationList = 43A4D81425CDBA7600A3E185 /* Build configuration list for PBXNativeTarget "HW.2.ErrorAssesement.Sine (macOS)" */;
 			buildPhases = (
 				43A4D7EB25CDBA7600A3E185 /* Sources */,
 				43A4D7EC25CDBA7600A3E185 /* Frameworks */,
@@ -244,12 +244,12 @@
 			);
 			dependencies = (
 			);
-			name = "HW.2.ErrorAssesement (macOS)";
+			name = "HW.2.ErrorAssesement.Sine (macOS)";
 			packageProductDependencies = (
 				43A4D87A25CDBD9400A3E185 /* CorePlot */,
 			);
 			productName = "HW.2.ErrorAssesement (macOS)";
-			productReference = 43A4D7EF25CDBA7600A3E185 /* HW.2.ErrorAssesement.app */;
+			productReference = 43A4D7EF25CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine.app */;
 			productType = "com.apple.product-type.application";
 		};
 		43A4D7F625CDBA7600A3E185 /* Tests iOS */ = {
@@ -313,7 +313,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43A4D7DE25CDBA7500A3E185 /* Build configuration list for PBXProject "HW.2.ErrorAssesement" */;
+			buildConfigurationList = 43A4D7DE25CDBA7500A3E185 /* Build configuration list for PBXProject "HW.2.ErrorAssesement.Sine" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -329,8 +329,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43A4D7E625CDBA7600A3E185 /* HW.2.ErrorAssesement (iOS) */,
-				43A4D7EE25CDBA7600A3E185 /* HW.2.ErrorAssesement (macOS) */,
+				43A4D7E625CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine (iOS) */,
+				43A4D7EE25CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine (macOS) */,
 				43A4D7F625CDBA7600A3E185 /* Tests iOS */,
 				43A4D80125CDBA7600A3E185 /* Tests macOS */,
 			);
@@ -440,12 +440,12 @@
 /* Begin PBXTargetDependency section */
 		43A4D7F925CDBA7600A3E185 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43A4D7E625CDBA7600A3E185 /* HW.2.ErrorAssesement (iOS) */;
+			target = 43A4D7E625CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine (iOS) */;
 			targetProxy = 43A4D7F825CDBA7600A3E185 /* PBXContainerItemProxy */;
 		};
 		43A4D80425CDBA7600A3E185 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43A4D7EE25CDBA7600A3E185 /* HW.2.ErrorAssesement (macOS) */;
+			target = 43A4D7EE25CDBA7600A3E185 /* HW.2.ErrorAssesement.Sine (macOS) */;
 			targetProxy = 43A4D80325CDBA7600A3E185 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -577,7 +577,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "IIT.alim3.HW-2-ErrorAssesement";
-				PRODUCT_NAME = HW.2.ErrorAssesement;
+				PRODUCT_NAME = HW.2.ErrorAssesement.Sine;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -599,7 +599,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "IIT.alim3.HW-2-ErrorAssesement";
-				PRODUCT_NAME = HW.2.ErrorAssesement;
+				PRODUCT_NAME = HW.2.ErrorAssesement.Sine;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -625,7 +625,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "IIT.alim3.HW-2-ErrorAssesement";
-				PRODUCT_NAME = HW.2.ErrorAssesement;
+				PRODUCT_NAME = HW.2.ErrorAssesement.Sine;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -649,7 +649,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "IIT.alim3.HW-2-ErrorAssesement";
-				PRODUCT_NAME = HW.2.ErrorAssesement;
+				PRODUCT_NAME = HW.2.ErrorAssesement.Sine;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -747,7 +747,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43A4D7DE25CDBA7500A3E185 /* Build configuration list for PBXProject "HW.2.ErrorAssesement" */ = {
+		43A4D7DE25CDBA7500A3E185 /* Build configuration list for PBXProject "HW.2.ErrorAssesement.Sine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43A4D80F25CDBA7600A3E185 /* Debug */,
@@ -756,7 +756,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43A4D81125CDBA7600A3E185 /* Build configuration list for PBXNativeTarget "HW.2.ErrorAssesement (iOS)" */ = {
+		43A4D81125CDBA7600A3E185 /* Build configuration list for PBXNativeTarget "HW.2.ErrorAssesement.Sine (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43A4D81225CDBA7600A3E185 /* Debug */,
@@ -765,7 +765,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43A4D81425CDBA7600A3E185 /* Build configuration list for PBXNativeTarget "HW.2.ErrorAssesement (macOS)" */ = {
+		43A4D81425CDBA7600A3E185 /* Build configuration list for PBXNativeTarget "HW.2.ErrorAssesement.Sine (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43A4D81525CDBA7600A3E185 /* Debug */,

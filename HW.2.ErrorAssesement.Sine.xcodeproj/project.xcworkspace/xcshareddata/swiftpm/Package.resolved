@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CorePlot",
+        "repositoryURL": "https://github.com/core-plot/core-plot",
+        "state": {
+          "branch": "release-2.4",
+          "revision": "352bc3f45779eca92c6d4bc0b88b3bae16cb38b9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
